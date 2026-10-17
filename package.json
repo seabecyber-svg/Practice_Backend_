@@ -1,0 +1,26 @@
+{
+  "name": "backend_development",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/seabecyber-svg/Practice_Backend_#readme",
+  "bugs": {
+    "url": "https://github.com/seabecyber-svg/Practice_Backend_/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seabecyber-svg/Practice_Backend_.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.cjs",
+    "dev": "nodemon server.cjs"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  }
+}
